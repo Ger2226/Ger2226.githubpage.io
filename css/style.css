@@ -1,0 +1,194 @@
+body {
+    
+    background: linear-gradient( #884EA0  , orange);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-attachment: fixed;
+    }
+ul {
+    list-style: none;
+}
+
+.titulo{
+    font-family: Silkscreen;
+    text-shadow: -2px 2px #FAE5D3;
+}
+
+
+header a:nth-child(2) {
+    padding: 15px;
+    color: black;
+}
+
+/* los "a" van inline por defecto, tengo q pasarlos a block*/
+header a{
+    display: block;
+    text-decoration: none;
+    
+}
+header .logo{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color:#F5B041 ;
+    box-shadow: -2px 3px #4A235A;
+}
+
+
+
+nav .logo{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+
+section .foto{
+    width: 50%;
+    height: 80%;
+    margin-top: 90px;
+}
+section p {
+    padding: 32px 40px 32px 40px;
+}
+section li{
+    margin: auto;
+    padding: 5px;
+    margin-left: -40px;
+}
+section .btn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background: grey;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    border: solid 0.5px black;
+    border-radius: 5px;
+    box-shadow: -1px 2px black;
+
+
+}
+
+
+footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        text-align: center;
+    }
+    
+footer hr{
+width: 90%;
+height: 1px;
+border-width: 0;
+color: black;
+background-color: black;
+}
+footer a{
+color: black;
+text-decoration: none;
+
+}
+/*
+
+
+.btn:hover{
+    background: grey;
+    font-size: 21px;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    border: solid 0.5px black;
+    border-radius: 5px;
+    box-shadow: 0px 3.5px 0px 3px;
+}
+
+
+
+border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    border-top: solid 0.5px black;
+    border-right: solid 0.5px black;
+
+
+p {
+    width: 100%;
+    text-align: center;
+    
+}
+ul {
+    list-style: none;
+}
+
+header .logo{
+    width: 100px 100px 100px 100px;
+    padding: 2px 2px 2px 2px;
+}
+
+header a:nth-child(2){
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+}
+
+
+header .logo {
+border-radius: 10px ;  
+}
+
+
+nav 
+{
+    padding: 0%;
+}
+
+nav .logo {
+    width: 25px;
+    
+}  
+
+
+section {
+padding-top: 0%;
+
+}
+
+    
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+    color: black;
+    padding: 5px 8px 5px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    border-top: solid 0.5px black;
+    border-right: solid 0.5px black;
+
+
+}
+.btn:hover{
+    background:coral;
+    font-size: 22px;
+    color: black;
+    padding: 7px 10px 7px 10px;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    border-top: solid 0.5px black;
+    border-right: solid 0.5px black;
+}
+*/
